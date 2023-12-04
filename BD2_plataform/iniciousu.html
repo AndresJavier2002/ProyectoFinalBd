@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de usuario</title>
+    <!-- Agrega enlaces a tus estilos o archivos CSS adicionales si es necesario -->
+    <link rel="stylesheet" href="sgc.css">
+</head>
+
+<body>
+
+    <!-- Encabezado con el botón "Productos" -->
+    <header>
+        <div class="nav-container">
+            <button id="btnProductos" onclick="Produc()">Mercado de productos</button>
+            <button id="btnHerramientas" onclick="deseos()">Lista de deseos</button>
+            <button id="btnHerramientas" onclick="carro()">Carrito de compras</button>
+        </div>
+    </header>
+
+    <!-- Resto de tu contenido -->
+
+    <script>
+        function Produc() {
+            // Aquí redirige a la página de productos
+            window.location.href = "GamaRep.html";
+        }
+
+        function deseos() {
+            // Aquí debes definir la redirección a la página lista de deseos
+            window.location.href = "listadese.html";
+        }
+
+        function carro() {
+            // Aquí debes definir la redirección a la página carrito
+            window.location.href = "carro.html";
+        }
+    </script>
+    
+    <!-- Encabezado con el título dentro de un rectángulo de puntas redondas -->
+    <header>
+        <div class="title-container">
+            <h1>Lista de Compras</h1>
+        </div>
+    </header>
+
+    <!-- Formulario o lista con información de la base de datos -->
+    
+    <section>
+        <h2>compras</h2>
+
+        <!-- Ejemplo de lista con información simulada de la base de datos -->
+        <ul>
+            <li><strong>producto:</strong> xxxxxxx</li>
+            <li><strong>producto:</strong> xxxxxxx</li>
+            <li><strong>producto:</strong> xxxxxxx</li>
+            <li><strong>producto:</strong> xxxxxxx</li>
+        </ul>
+
+        <!-- Agrega tu formulario u otra información aquí -->
+
+    </section>
+</body>
+
+</html>

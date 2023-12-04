@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadatos para el navegador -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la página -->
+    <title>Agroinsumos</title>
+    <!-- Enlace a la hoja de estilos externa -->
+    <link rel="stylesheet" href="Style.css">
+    <!-- Enlaces a Bootstrap desde CDN para estilos y scripts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Scripts de Bootstrap desde CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+    <!-- Barra de navegación superior -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-bottom-dark" data-theme="dark">
+        <div class="container-fluid">
+            <!-- Logo de la empresa -->
+            <img src="Imagenes/Icono.jpg" alt="" height="40" width="40">
+            <!-- Botón para colapsar la barra de navegación en dispositivos móviles -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Enlaces de la barra de navegación -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <!-- Enlace a la página de productos -->
+                    
+                    <ul class="navbar-nav">
+                        <!-- Menú desplegable de inicio de sesión -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Iniciar Sesion
+                            </a>
+                            <ul class="dropdown-menu">
+                                <!-- Opciones del menú desplegable (Iniciar sesión y Registrar) -->
+                                <li><a class="dropdown-item" href="loginusu.html">Iniciar</a></li>
+                                <li><a class="dropdown-item" href="login.html">Nuevo Usuario</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Encabezado de la página -->
+    <header class="header">
+        <!-- Contenido del encabezado con título, subtítulo y enlace -->
+        <div class="header-content container">
+            <h1>Agroinsumos</h1>
+            <p>
+                <h4>Todo lo que necesita para el campo</h4>
+            </p>
+            <a href="WebPrincipal.html" class="btn-1">Sobre Nosotros</a>
+        </div>
+    </header>
+
+    <!-- Sección de marcas preferidas -->
+    <section class="sucursal container">
+        <h2>Marcas Preferidas</h2>
+        <p>Las siguientes marcas son las más recomendadas por los agricultores en Colombia.</p>
+
+        <!-- Contenido de las marcas con imágenes y nombres -->
+        <div class="sucursal-content">
+            <div class="sucursal-1">
+                <h3>STIHL</h3>
+                <img src="Imagenes/Stihl.jpg" alt="">
+            </div>
+
+            <div class="sucursal-1">
+                <h3>AGRALIA</h3>
+                <img src="Imagenes/agralia.jpeg" alt="">
+            </div>
+
+            <div class="sucursal-1">
+                <h3>FERTICOL</h3>
+                <img src="Imagenes/ferticol.jpeg" alt="">
+            </div>
+
+            <div class="sucursal-1">
+                <h3>HUSQVARNA</h3>
+                <img src="Imagenes/Husva.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <!-- Contenido del pie de página con enlaces sociales y datos de contacto -->
+        <div class="footer-content container text-center">
+            <div class="link">
+                <div class="link-1 col">
+                    <img src="Imagenes/face.png" alt="">
+                    <h6>Facebook</h6>
+                </div>            
+                <div class="link-1 col">
+                    <img src="Imagenes/insta.png" alt="">
+                    <h6>Instagram</h6>
+                </div>
+                <div class="link-1 col">
+                    <img src="Imagenes/what.png" alt="">
+                    <h6>WhatsApp</h6>
+                </div>
+            </div>
+            <div class="link-2">
+                <!-- Datos de contacto -->
+                <ul>
+                    <h6><li>Telefono: 312 245 2648</li></h6>
+                    <h6><li>Email: agroinsumos2024@gmail.com</li></h6> 
+                    <h6><li>Direccion: Calle 40 Cra 3 # 34-25</li></h6>
+                </ul>
+            </div>
+        </div>
+    </footer> 
+</body>
+
+</html>
